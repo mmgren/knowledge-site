@@ -1,0 +1,7 @@
+name = "knowledge-site-oauth"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+# 密钥用 wrangler secret 注入，不要写进仓库：
+# wrangler secret put GITHUB_CLIENT_ID
+# wrangler secret put GITHUB_CLIENT_SECRET
