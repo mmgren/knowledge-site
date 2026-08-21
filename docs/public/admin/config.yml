@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: REPLACE_GITHUB_USER/knowledge-site
+  branch: main
+  base_url: https://REPLACE_WORKER.workers.dev
+  auth_endpoint: auth
+
+local_backend: false
+
+media_folder: docs/public/images
+public_folder: /images
+
+collections:
+  - name: guide
+    label: 指南
+    folder: docs/guide
+    create: true
+    slug: "{{slug}}"
+    extension: md
+    format: frontmatter
+    fields:
+      - { label: 标题, name: title, widget: string }
+      - { label: 摘要, name: description, widget: string, required: false }
+      - { label: 正文, name: body, widget: markdown }
