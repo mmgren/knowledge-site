@@ -35,7 +35,7 @@ Decap 后台本地路径：`http://localhost:5173/knowledge-site/admin/`（OAuth
    ```
 
 3. **启用 GitHub Pages**  
-   仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**（不要选 Deploy from a branch）。
+   等第一次 Actions 成功写出 `gh-pages` 分支后：仓库 **Settings → Pages → Build and deployment → Source** 选 **Deploy from a branch**，Branch 选 **`gh-pages`** / **/ (root)**，保存。
 
 4. **确认 base 路径**  
    `docs/.vitepress/config.mts` 中 `base: '/knowledge-site/'` 必须与仓库名一致。若仓库改名，同步修改此处。
