@@ -75,6 +75,15 @@ npx wrangler deploy
 
 ### 3. 填写占位符（共 3 处）
 
+也可使用脚本一键替换（须已部署 Worker 并拿到 URL）：
+
+```bash
+chmod +x scripts/apply-placeholders.sh   # 首次执行
+./scripts/apply-placeholders.sh <github_user> <worker_base_url>
+```
+
+示例：`./scripts/apply-placeholders.sh alice https://knowledge-site-oauth.alice.workers.dev`。脚本会替换下文 3 处占位符并打印 `git diff --stat`。
+
 **不要**在自动化脚本里填假用户名；以下占位符须替换为你的真实值：
 
 | 文件 | 占位符 | 替换为 |
