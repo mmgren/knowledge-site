@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: REPLACE_GITHUB_USER/knowledge-site
+  repo: mmgren/knowledge-site
   branch: main
   base_url: https://REPLACE_WORKER.workers.dev
   auth_endpoint: auth

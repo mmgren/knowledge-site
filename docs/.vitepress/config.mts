@@ -15,7 +15,7 @@ export default defineConfig({
     ],
     search: { provider: 'local' },
     editLink: {
-      pattern: 'https://github.com/REPLACE_ME/knowledge-site/edit/main/docs/:path',
+      pattern: 'https://github.com/mmgren/knowledge-site/edit/main/docs/:path',
       text: '在 GitHub 上编辑'
     }
   }
