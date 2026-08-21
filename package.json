@@ -1,0 +1,14 @@
+{
+  "name": "knowledge-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "test": "node --test docs/.vitepress/sidebar.test.mjs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
