@@ -1,1 +1,4 @@
-"\"\\\"---\\\\ntitle: 知识手册\\\\ndescription: 个人手册首页\\\\n---\\\\n# 知识手册\\\\n\\\\n这是基于 GitHub 的个人知识手册。内容以 Markdown 存放在仓库中，可通过站点阅读，也可在 `/admin/` 后台编辑。\\\\n\\\\n## 快速入口\\\\n\\\\n就是啊\\\\n\\\\n- [开始使用](/guide/getting-started)\\\\n- [如何写作](/guide/writing)\\\\n\\\"\\n\"\n\n# 你好\n\n你好\n\n"
+# 这是我的脚
+
+![IMG_20260819_000719.jpg](https://raw.githubusercontent.com/mmgren/knowledge-site/main/assets/images/20260822_173257_IMG_20260819_000719.jpg)
+
